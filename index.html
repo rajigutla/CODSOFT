@@ -1,149 +1,81 @@
-# Personal Portfolio Website
-
-## HTML (index.html)
-
-```html
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-    <!-- Header Section -->
-    <header>
-        <h1>Raji</h1>
-        <p>Web Developer | Designer | Learner</p>
-    </header>
-
-    <!-- About Section -->
-    <section id="about">
-        <img src="profile.jpg" alt="My Photo">
-        <h2>About Me</h2>
-        <p>
-            Hello! I am a passionate web developer with skills in HTML, CSS, and JavaScript.
-            I enjoy creating responsive and user-friendly websites.
-        </p>
-    </section>
-
-    <!-- Skills Section -->
-    <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>Responsive Design</li>
-            <li>Python</li>
-        </ul>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects">
-        <h2>Projects</h2>
-
-        <div class="project">
-            <img src="project1.jpg" alt="Project 1">
-            <h3>Portfolio Website</h3>
-            <p>A personal portfolio website built using HTML and CSS.</p>
-        </div>
-
-        <div class="project">
-            <img src="project2.jpg" alt="Project 2">
-            <h3>Landing Page</h3>
-            <p>A modern landing page design for a business website.</p>
-        </div>
-    </section>
-
-    <!-- Resume Section -->
-    <section id="resume">
-        <h2>Resume</h2>
-        <a href="resume.pdf" download>Download Resume (PDF)</a>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: yourmail@example.com</p>
-        <p>Phone: +91 9876543210</p>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2026 Raji. All Rights Reserved.</p>
-    </footer>
-
-</body>
-</html>
-```
-
-## CSS (style.css)
-
-```css
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-}
+<title>Landing Page</title>
+<style>
 
 body{
-    font-family:Arial, sans-serif;
-    line-height:1.6;
-    background:#f4f4f4;
+font-family:Arial,sans-serif;
+margin:0;
+padding:0;
 }
 
 header{
-    background:#333;
-    color:white;
-    text-align:center;
-    padding:30px;
+background:#0077cc;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+.hero{
+background:#f4f4f4;
+text-align:center;
+padding:50px;
+}
+
+.hero button{
+padding:10px 20px;
+font-size:16px;
 }
 
 section{
-    padding:30px;
-    margin:20px;
-    background:white;
-    border-radius:10px;
-}
-
-#about img{
-    width:150px;
-    height:150px;
-    border-radius:50%;
-    display:block;
-    margin-bottom:15px;
-}
-
-#skills ul{
-    list-style:square;
-    padding-left:20px;
-}
-
-.project{
-    margin-top:20px;
-}
-
-.project img{
-    width:250px;
-    border-radius:8px;
-}
-
-#resume a{
-    text-decoration:none;
-    color:white;
-    background:#007bff;
-    padding:10px 15px;
-    border-radius:5px;
+padding:20px;
 }
 
 footer{
-    background:#333;
-    color:white;
-    text-align:center;
-    padding:15px;
-    margin-top:20px;
+background:#0077cc;
+color:white;
+text-align:center;
+padding:10px;
 }
-```
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Welcome to My Landing Page</h1>
+</header>
+
+<div class="hero">
+<h2>Build Your Future With Us</h2>
+<p>Learn Web Development and Programming.</p>
+<button>Get Started</button>
+</div>
+
+<section>
+<h2>About Us</h2>
+<p>We provide quality learning resources for students.</p>
+</section>
+
+<section>
+<h2>Services</h2>
+<ul>
+<li>Web Development</li>
+<li>Python Programming</li>
+<li>Project Guidance</li>
+</ul>
+</section>
+
+<section>
+<h2>Contact</h2>
+<p>Email: info@example.com</p>
+</section>
+
+<footer>
+<p>© 2026 Landing Page</p>
+</footer>
+
+</body>
+</html>
